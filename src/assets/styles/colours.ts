@@ -1,0 +1,25 @@
+ export const colors = {
+  "color-1": "#E2F0D9",
+  "color-2": "#EDEDED",
+  "color-3": "#F7B32B",
+  "color-4": "#A67B5B",
+  "color-5": "#E1E1E1",
+  "color-6": "#EB6383",
+  "color-7": "#503D33",
+  "color-8": "#7F7F7F",
+  "color-9": "#4C3A51",
+  "color-10": "#769B64",
+  "color-11": "#82AB6E",
+  "color-12": "#34A0A4",
+  "color-13": "#D08344",
+  "color-15": "#B4A076",
+  "color-16": "#FFFFFF",
+  "color-17": "#000000",
+//   extra  
+  "color-18": "#333F48",
+  "color-19": "#C0C0C0",
+  "color-20": "#0077B3",
+  "color-21": "#003366",
+  "color-22": "#7D7D7D",
+  "color-23": "#28589C"
+}
