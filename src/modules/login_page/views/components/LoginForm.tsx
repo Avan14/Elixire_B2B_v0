@@ -49,7 +49,8 @@ const LoginForm: React.FC = () => {
         <div className="flex justify-end">
           <a
             href="#forgot-password"
-            className="text-sm text-[#F97316] hover:underline"
+            className="text-sm hover:underline"
+            style={{color : colors["color-13"]}}
           >
             Forgot Password?
           </a>
@@ -66,9 +67,9 @@ const LoginForm: React.FC = () => {
             <button
               type="submit"
               className={`w-1/2 py-2 px-6 rounded-md font-medium transition-colors duration-200 focus:outline-none text-[#333] hover:text-[#7CA25D] focus:ring-2 focus:ring-[#7CA25D] focus:ring-opacity-50`}
-              style={{ backgroundColor: colors["color-11"] }}
+              style={{ backgroundColor: colors["color-5"] }}
             >
-              Log in
+              Register
             </button>
           </div>
 
@@ -82,7 +83,7 @@ const LoginForm: React.FC = () => {
                 id="rememberPassword"
                 name="rememberPassword"
               />
-              <label htmlFor="rememberPassword" className="text-sm text-gray-600">
+              <label htmlFor="rememberPassword" className="text-sm text-gray-600" style={{color : colors["color-8"]}}>
                 Remember password
               </label>
             </div>

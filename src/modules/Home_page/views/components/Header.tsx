@@ -1,5 +1,6 @@
 import React from "react";
 import play from "../../../../assets/images/play.png";
+import bell from "../../../../assets/images/bell-48.png";
 import { Search, Bell, Settings2Icon, Wallet } from "lucide-react";
 import { colors } from "../../../../assets/styles/colours";
 
@@ -52,11 +53,17 @@ const Header: React.FC = () => {
           <span className="mr-1">
             <Wallet></Wallet>
           </span>
-          <span>2000</span>
+          <span>₹ 2000</span>
         </div>
-        <div className="relative">
-          {/* Bell Icon (assuming it's an icon component, adjust as necessary) */}
-          <Bell size={24} style={{color : colors["color-7"]}} />
+        <div className="relative flex items-center">
+          {/* Bell Icon*/}
+          <button className="text-white">
+            <img
+              src={bell}
+              alt="notification"
+              className=" h-8 "
+            />
+          </button>
         </div>
       </div>
     </div>
